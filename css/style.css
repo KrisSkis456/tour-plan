@@ -588,6 +588,11 @@ template {
   line-height: 0;
 }
 
+.stars__one {
+  width: 6px;
+  height: 6px;
+}
+
 .offer {
   font-size: 10px;
   line-height: 13px;
@@ -618,6 +623,10 @@ template {
 
 .rating__counter:nth-child(3) {
   font-size: 8px;
+}
+
+.five {
+  font-size: 10px;
 }
 
 .swiper {
@@ -673,6 +682,7 @@ template {
 }
 
 .booking {
+  font-family: Nunito;
   background-color: #0a223d;
   color: #fff;
   border-radius: 8px;
@@ -857,7 +867,7 @@ template {
 
 .subscribe {
   position: relative;
-  width: 355px;
+  width: 350px;
   height: 55px;
   border-radius: 4px;
   overflow: hidden;
@@ -903,7 +913,7 @@ template {
 }
 
 @media (max-width: 992px) {
-  .container .newsletter-wrapper {
+  .container, .newsletter-wrapper {
     max-width: 700px;
   }
   .logo {
@@ -1073,19 +1083,33 @@ template {
     width: 88%;
   }
   .slider {
-    height: 250px;
+    height: 179px;
+  }
+  .hotel {
+    padding-bottom: 40px;
   }
   .hotel__slider {
+    margin-top: 18px;
     margin-bottom: 20px;
   }
+  .hotel-right {
+    min-height: 380px;
+  }
+  .booking {
+    margin-bottom: 20px;
+  }
+  .map {
+    height: 173px;
+  }
   .newsletter {
+    height: 319px;
     padding: 76px 0 83px 0;
   }
   .newsletter__title {
     margin-bottom: 37px;
   }
   .subscribe {
-    width: 100%;
+    width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
