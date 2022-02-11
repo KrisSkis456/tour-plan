@@ -124,35 +124,32 @@
       </div>
       <!-- /.hotel-info -->
       <div class="hotel-grid">
-        <div class="slider hotel__slider">
-          <!-- Slider main container -->
-          <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <img 
-                class="swiper-slide__image" 
-                src="img/slide.jpg" 
-                alt="slide"></div>
-              <div class="swiper-slide">
-                <img 
-                class="swiper-slide__image" 
-                src="img/hotel.jpg" 
-                alt="slide"></div>
-              <div class="swiper-slide">
-                <img 
-                class="swiper-slide__image" 
-                src="img/room.jpg" 
-                alt="slide"></div>
-            </div>
-            <!-- If we need navigation buttons -->
-            <button class="slider-button slider-button--prev"></button>
-            <button class="slider-button slider-button--next"></button>
+        <!-- Slider main container -->
+        <div class="swiper hotel-slider hotel__slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide hotel-slider__item">
+              <img
+              class="swiper-slide__image" 
+              src="img/slide.jpg" 
+              alt="slide"></div>
+            <div class="swiper-slide hotel-slider__item">
+              <img 
+              class="swiper-slide__image" 
+              src="img/hotel.jpg" 
+              alt="slide"></div>
+            <div class="swiper-slide hotel-slider__item">
+              <img 
+              class="swiper-slide__image" 
+              src="img/room.jpg" 
+              alt="slide"></div>
           </div>
-          <!-- /.swiper -->
+          <!-- If we need navigation buttons -->
+          <button class="hotel-slider__button hotel-slider__button--prev"></button>
+          <button class="hotel-slider__button hotel-slider__button--next"></button>
         </div>
-        <!-- /.slider -->
+        <!-- /.swiper -->
         <div class="hotel-right">
           <div class="booking">
             <div class="booking__info">
@@ -215,6 +212,79 @@
       </form>
     </div>
     <!-- /.newsletter-wrapper -->
+  </section>
+  <section class="reviews">
+    <div class="container">
+      <h2 class="reviews__title">What people think about us</h2>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img
+                  src="img/reviews-avatar.jpeg" 
+                  alt="Photo: Megan Fox" 
+                  class="reviews-slider__avatar">
+                <h3 class="reviews-slider__username">Megan Fox</h3>
+                <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                    <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                    <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                    <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                    <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                  </div>
+                  <!-- /.reviews-slider__rating -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+              <p class="reviews-slider__text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only
+              that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which
+              were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per
+              atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it
+              was a good experience and could recommend.</p>
+            </div>
+            <!-- /.reviews-slider__item -->
+          </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <div class="reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img src="img/reviews-avatar-2.jpeg" alt="Photo: Chloe Swit" class="reviews-slider__avatar">
+                <h3 class="reviews-slider__username">Chloe Swit</h3>
+                <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                <div class="reviews-slider__rating">
+                  <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                  <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                  <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                  <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                  <img src="img/Star.svg" alt="star" class="reviews-slider__star">
+                </div>
+                <!-- /.reviews-slider__rating -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+              <p class="reviews-slider__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab sunt ipsum quod 
+                voluptate beatae, eaque rem aliquam ullam quisquam cupiditate, amet maiores 
+                expedita esse corrupti repellat hic atque quae. Eligendi id libero amet ex 
+                inventore distinctio quidem assumenda, adipisci fugiat illo, animi iusto 
+                dolorum modi officia nihil ipsum voluptatum, culpa pariatur. Ea est sequi, 
+                totam officiis repudiandae inventore, asperiores beatae itaque iure dicta 
+                facilis saepe deleniti sit. Maiores, accusamus ad eaque a sunt iste dolor 
+                non id velit obcaecati at nobis blanditiis cum officiis dolore voluptatum 
+                eveniet inventore ut. Nisi ullam dolorem consectetur. Corrupti, natus reiciendis 
+                quae accusamus maxime cum?</p>
+            </div>
+            <!-- /.reviews-slider__item -->
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- /.swiper-wrapper -->
+        <button class="reviews-slider__button reviews-slider__button--prev"></button>
+        <button class="reviews-slider__button reviews-slider__button--next"></button>
+      </div>
+      <!-- /.reviews-slider -->
+    </div>
+    <!-- /.container -->
   </section>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
