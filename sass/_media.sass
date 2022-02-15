@@ -10,6 +10,10 @@
         width: 100%
         height: 100%
         object-fit: cover
+  .newsletter
+    height: 260px
+    &-wrapper
+      height: 68px
   .card
     width: 230px
     height: 230px
@@ -48,10 +52,16 @@
     width: 340px
   .map
     width: 340px
+  .newsletter
+    padding: 92px 0 93px 0
+    &-wrapper
+      margin-left: auto
+    &-title
+      margin: 0
   .reviews
     &-slider
       &__item
-        min-width: 580px
+        min-width: 580px      
   .activities
     &-wrapper
       flex-wrap: wrap
@@ -122,16 +132,26 @@
     width: 100%
   .map
     width: 100%
+  .iframe
+    width: 100%
   .newsletter
     &-wrapper
       max-width: 576px
       width: 92%
-      flex-direction: column
-      align-items: flex-start
+      margin-left: auto
+    &-title
+      margin: 0
+      &__strong
+        font-size: 33px
+        line-height: 42px
+  .subscribe
+    width: 280px
+    height: 55px
   .reviews
     &__title
       font-size: 30px
       line-height: 38px
+      margin-bottom: 50px
     &-slider
       &__item
         padding: 0 30px 30px
@@ -147,6 +167,8 @@
           right: 50%
           margin-right: -65px
           transform: translate(50%, 0)
+      &__text
+        width: 455px
   .activities
     padding-top: 40px
     padding-bottom: 60px
@@ -175,17 +197,45 @@
   .newsletter
     height: 319px
     padding: 76px 0 83px 0
+    &-wrapper
+      max-width: 320px
+      align-items: flex-start
+      flex-direction: column
+      margin-left: auto
+      height: auto
     &__title
+      font-size: 20px
+      line-height: 25px
+    &-title
+      margin: 0
       margin-bottom: 37px
+      &__strong
+        font-size: 30px
+        line-height: 37px
   .subscribe
     width: 280px
   .reviews
     &__title
+      width: 245px
+      align-items: flex-start
       font-size: 18px
       line-height: 23px
+      margin-left: 38px
+      margin-bottom: 42px
     &-slider
       &__item
         min-width: 281px
+      &__text
+        width: 219px
+      &__button
+        &--prev
+          left: 39%
+          transform: translate(-50%, 0)
+          margin-left: -65px
+        &--next
+          right: 39%
+          margin-right: -65px
+          transform: translate(50%, 0)
   .card
     width: 100%
     

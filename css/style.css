@@ -897,6 +897,9 @@ template {
   border: 0;
   background-color: #EC1F46;
   color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
 }
 
 .reviews {
@@ -910,6 +913,7 @@ template {
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 0;
   margin-bottom: 70px;
 }
 
@@ -973,12 +977,12 @@ template {
 
 .reviews-slider__button--prev {
   background-image: url(../img/arrow-prev-secondary.svg);
-  left: 0;
+  left: 40px;
 }
 
 .reviews-slider__button--next {
   background-image: url(../img/arrow-next-secondary.svg);
-  right: 0;
+  right: 40px;
 }
 
 .reviews-slider__profile {
@@ -1011,6 +1015,7 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #EC1F46;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
@@ -1058,6 +1063,7 @@ template {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
+  margin-top: 0;
   margin-bottom: 57px;
 }
 
@@ -1150,6 +1156,12 @@ template {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .newsletter {
+    height: 260px;
+  }
+  .newsletter-wrapper {
+    height: 68px;
+  }
   .card {
     width: 230px;
     height: 230px;
@@ -1206,6 +1218,15 @@ template {
   }
   .map {
     width: 340px;
+  }
+  .newsletter {
+    padding: 92px 0 93px 0;
+  }
+  .newsletter-wrapper {
+    margin-left: auto;
+  }
+  .newsletter-title {
+    margin: 0;
   }
   .reviews-slider__item {
     min-width: 580px;
@@ -1319,20 +1340,29 @@ template {
   .map {
     width: 100%;
   }
+  .iframe {
+    width: 100%;
+  }
   .newsletter-wrapper {
     max-width: 576px;
     width: 92%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    margin-left: auto;
+  }
+  .newsletter-title {
+    margin: 0;
+  }
+  .newsletter-title__strong {
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .subscribe {
+    width: 280px;
+    height: 55px;
   }
   .reviews__title {
     font-size: 30px;
     line-height: 38px;
+    margin-bottom: 50px;
   }
   .reviews-slider__item {
     padding: 0 30px 30px;
@@ -1354,6 +1384,9 @@ template {
     margin-right: -65px;
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
+  }
+  .reviews-slider__text {
+    width: 455px;
   }
   .activities {
     padding-top: 40px;
@@ -1396,18 +1429,60 @@ template {
     height: 319px;
     padding: 76px 0 83px 0;
   }
+  .newsletter-wrapper {
+    max-width: 320px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    height: auto;
+  }
   .newsletter__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .newsletter-title {
+    margin: 0;
     margin-bottom: 37px;
+  }
+  .newsletter-title__strong {
+    font-size: 30px;
+    line-height: 37px;
   }
   .subscribe {
     width: 280px;
   }
   .reviews__title {
+    width: 245px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     font-size: 18px;
     line-height: 23px;
+    margin-left: 38px;
+    margin-bottom: 42px;
   }
   .reviews-slider__item {
     min-width: 281px;
+  }
+  .reviews-slider__text {
+    width: 219px;
+  }
+  .reviews-slider__button--prev {
+    left: 39%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    margin-left: -65px;
+  }
+  .reviews-slider__button--next {
+    right: 39%;
+    margin-right: -65px;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
   }
   .card {
     width: 100%;
