@@ -59,9 +59,19 @@
     &-title
       margin: 0
   .reviews
+    padding: 40px 0 60px 0
     &-slider
       &__item
-        min-width: 580px      
+        max-width: 580px   
+        padding: 
+      &__text
+       max-width: 455px
+      
+    &__title
+      width: 487px
+      font-size: 30px
+      line-height: 38px   
+      margin: 0 auto 50px
   .activities
     &-wrapper
       flex-wrap: wrap
@@ -149,9 +159,8 @@
     height: 55px
   .reviews
     &__title
-      font-size: 30px
-      line-height: 38px
-      margin-bottom: 50px
+      width: 70%
+      margin: 0 auto 50px
     &-slider
       &__item
         padding: 0 30px 30px
@@ -215,6 +224,7 @@
   .subscribe
     width: 280px
   .reviews
+    padding: 40px 0 50px 0
     &__title
       width: 245px
       align-items: flex-start
@@ -227,6 +237,7 @@
         min-width: 281px
       &__text
         width: 219px
+        text-align: left
       &__button
         &--prev
           left: 39%
@@ -236,8 +247,18 @@
           right: 39%
           margin-right: -65px
           transform: translate(50%, 0)
+  .activities
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 36px
   .card
     width: 100%
+    &:nth-of-type(2)
+      order: 2
+    &:nth-of-type(4)
+      order: 4
+
     
 
 
