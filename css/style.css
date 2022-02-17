@@ -1162,6 +1162,15 @@ template {
   .newsletter-wrapper {
     height: 68px;
   }
+  .reviews-slider__button {
+    top: 50%;
+  }
+  .reviews-slider__button--prev {
+    left: 0;
+  }
+  .reviews-slider__button--next {
+    right: 0;
+  }
   .card {
     width: 230px;
     height: 230px;
