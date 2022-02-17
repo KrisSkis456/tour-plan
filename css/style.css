@@ -1237,6 +1237,15 @@ template {
   .reviews-slider__text {
     max-width: 455px;
   }
+  .reviews-slider__button {
+    top: 55%;
+  }
+  .reviews-slider__button--prev {
+    left: 0;
+  }
+  .reviews-slider__button--next {
+    right: 0;
+  }
   .reviews__title {
     width: 487px;
     font-size: 30px;
@@ -1385,13 +1394,13 @@ template {
     top: 32px;
   }
   .reviews-slider__button--prev {
-    left: 50%;
+    left: 45%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
     margin-left: -65px;
   }
   .reviews-slider__button--next {
-    right: 50%;
+    right: 45%;
     margin-right: -65px;
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
@@ -1488,13 +1497,13 @@ template {
     text-align: left;
   }
   .reviews-slider__button--prev {
-    left: 39%;
+    left: 43%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
     margin-left: -65px;
   }
   .reviews-slider__button--next {
-    right: 39%;
+    right: 43%;
     margin-right: -65px;
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
