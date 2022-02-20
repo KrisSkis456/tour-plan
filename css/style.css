@@ -1162,6 +1162,9 @@ template {
   .newsletter-wrapper {
     height: 68px;
   }
+  .reviews {
+    height: 550px;
+  }
   .reviews-slider__button {
     top: 50%;
   }
@@ -1239,6 +1242,7 @@ template {
   }
   .reviews {
     padding: 40px 0 60px 0;
+    height: 532px;
   }
   .reviews-slider__item {
     max-width: 580px;
@@ -1487,6 +1491,7 @@ template {
   }
   .reviews {
     padding: 40px 0 50px 0;
+    height: 661px;
   }
   .reviews__title {
     width: 245px;
@@ -1495,8 +1500,7 @@ template {
             align-items: flex-start;
     font-size: 18px;
     line-height: 23px;
-    margin-left: 38px;
-    margin-bottom: 42px;
+    margin: 0 auto 42px;
   }
   .reviews-slider__item {
     min-width: 281px;
