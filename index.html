@@ -11,14 +11,14 @@
     rel="stylesheet">
 </head>
 <body>
-  <header class="navbar">
+  <header class="navbar navbar--mobile--fixed">
     <div class="container">
       <div class="navbar-top">
         <a href="#" class="logo">
           <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
 
-        <form action="#" class="search navbar__search">
+        <form action="#" class="search navbar__search navbar__search--mobile--hidden">
           <input 
           type="text" 
           class="search__input" 
@@ -29,7 +29,7 @@
           </button>
         </form>
 
-        <a href="#" class="user navbar__user">
+        <a href="#" class="user navbar__user navbar__user--mobile--hidden">
           <img 
           src="img/user_avatar.jpeg" 
           alt="avatar: Nathan" 
@@ -51,6 +51,24 @@
     <div class="navbar-bottom">
       <div class="container">
         <ul class="navbar-menu">
+          <li class="navbar-menu__item navbar-menu__item--mobile--visible">
+            <a href="#" class="user navbar__user navbar__user--mobile--visible">
+              <img 
+              src="img/user_avatar.jpeg" 
+              alt="avatar: Nathan" 
+              class="user__avatar">
+              <span class="user__name user__name--light">Nathan</span>
+            </a>
+            <!-- /.user -->
+          </li>
+          <li class="navbar-menu__item navbar-menu__item--mobile--visible">
+            <form action="#" class="search navbar__search navbar__search--mobile--visible">
+              <input type="text" class="search__input" placeholder="Search Location">
+              <button class="search__button">
+                <img src="img/search.svg" alt="Icon:search">
+              </button>
+            </form>
+          </li>
           <li class="navbar-menu__item">
             <a href="#" class="navbar-menu__link">All Deals</a>
           </li>
@@ -186,7 +204,7 @@
           <div class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6716.662422744544!2d98.2966645258012!3d7.838797513501568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305025650c33dbab%3A0xa67a542329d011e1!2z0J_RhdGD0LrQtdGCLCDQmtCw0YDQvtC9LCDQntGC0LXQu9GMINCl0LjQu9GC0L7QvQ!5e0!3m2!1sru!2sru!4v1644139273670!5m2!1sru!2sru"
-              width="347%" height="213" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              width="347" height="213" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
           <!-- /.map -->
         </div>
@@ -417,19 +435,31 @@
           <form action="#" class="footer__form">
             <input type="text" class="input footer__input" placeholder="Your Full Name*">
             <input type="text" class="input footer__input" placeholder="Phone Number*">
-
             <textarea 
-            class="footer__message" id="" 
+            class="footer__message"
             cols="30" 
             rows="10" 
             placeholder="Message">
             </textarea>
             <button class="button footer__button" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
-
           </form>
         </div>
         <!-- /.footer__contact-form -->
+        <div class="footer__bottom">
+            <ul class="footer__bottom-ul">
+              <li class="footer__bottom-item">
+                <a href="#" class="footer__bottom-link">Disclaimer</a></li>
+              <li class="footer__bottom-item">
+                <a href="#" class="footer__bottom-link">Conditions of use</a></li>
+              <li class="footer__bottom-item">
+                <a href="#" class="footer__bottom-link">Cancellation policy</a></li>
+            </ul>
+          <div class="footer__bottom-icons">
+            <img src="img/footer-icons.svg" alt="Icon: payment" class="info-icons">
+          </div>
+        </div>
+        <!-- /.footer__bottom -->
       </div>
       <!-- /.footer-wrapper -->
     </div>
